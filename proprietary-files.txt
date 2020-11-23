@@ -140,19 +140,19 @@ vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so
 vendor/lib64/vendor.qti.latency@2.0.so
 
 # DPM
-product/bin/dpmd
-product/etc/dpm/dpm.conf
-product/etc/init/dpmd.rc
-product/etc/permissions/com.qti.dpmframework.xml
-product/etc/permissions/dpmapi.xml
-product/framework/com.qti.dpmframework.jar
-product/framework/dpmapi.jar
-product/lib64/com.qualcomm.qti.dpm.api@1.0.so
-product/lib64/libdpmctmgr.so
-product/lib64/libdpmfdmgr.so
-product/lib64/libdpmframework.so
-product/lib64/libdpmtcm.so
--product/priv-app/dpmserviceapp/dpmserviceapp.apk
+product/bin/dpmd:system_ext/bin/dpmd
+product/etc/dpm/dpm.conf:system_ext/etc/dpm/dpm.conf
+product/etc/init/dpmd.rc:system_ext/etc/init/dpmd.rc
+product/etc/permissions/com.qti.dpmframework.xml:system_ext/etc/permissions/com.qti.dpmframework.xml
+product/etc/permissions/dpmapi.xml:system_ext/etc/permissions/dpmapi.xml
+product/framework/com.qti.dpmframework.jar:system_ext/framework/com.qti.dpmframework.jar
+product/framework/dpmapi.jar:system_ext/framework/dpmapi.jar
+product/lib64/com.qualcomm.qti.dpm.api@1.0.so:system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so
+product/lib64/libdpmctmgr.so:system_ext/lib64/libdpmctmgr.so
+product/lib64/libdpmfdmgr.so:system_ext/lib64/libdpmfdmgr.so
+product/lib64/libdpmframework.so:system_ext/lib64/libdpmframework.so
+product/lib64/libdpmtcm.so:system_ext/lib64/libdpmtcm.so
+-product/priv-app/dpmserviceapp/dpmserviceapp.apk:system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk
 vendor/bin/dpmQmiMgr
 vendor/etc/init/dpmQmiMgr.rc
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so
@@ -405,8 +405,8 @@ vendor/lib64/vendor.display.color@1.2.so
 vendor/lib64/vendor.display.postproc@1.0.so
 
 # QMI
-system/etc/permissions/qti_permissions.xml
-product/lib64/libdiag_system.so
+system/etc/permissions/qti_permissions.xml:system_ext/etc/permissions/qti_permissions.xml
+product/lib64/libdiag_system.so:system_ext/lib64/libdiag_system.so
 vendor/bin/irsc_util
 vendor/bin/pd-mapper
 vendor/lib/libdiag.so
@@ -442,14 +442,13 @@ vendor/lib64/libqmiservices.so
 system_ext/framework/qti-telephony-common.jar|98951c48563c5846a58c9a3c4c254f32d0741f36
 
 # Radio
--product/app/datastatusnotification/datastatusnotification.apk
--product/app/QtiTelephonyService/QtiTelephonyService.apk
-product/etc/permissions/qcrilhook.xml
-product/etc/permissions/telephony_product_privapp-permissions-qti.xml
-product/etc/permissions/telephonyservice.xml
-product/framework/qcrilhook.jar
-product/framework/QtiTelephonyServicelibrary.jar
--product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+-product/app/datastatusnotification/datastatusnotification.apk:system_ext/app/datastatusnotification/datastatusnotification.apk
+-product/app/QtiTelephonyService/QtiTelephonyService.apk:system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
+product/etc/permissions/qcrilhook.xml:system_ext/etc/permissions/qcrilhook.xml
+product/etc/permissions/telephonyservice.xml:system_ext/etc/permissions/telephonyservice.xml
+product/framework/qcrilhook.jar:system_ext/framework/qcrilhook.jar
+product/framework/QtiTelephonyServicelibrary.jar:system_ext/framework/QtiTelephonyServicelibrary.jar
+-product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk:system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/bin/adpl
 vendor/bin/ATFWD-daemon
 vendor/bin/hw/qcrild
@@ -515,18 +514,18 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
 vendor/radio/qcril_database/qcril.db
 
 # Radio - IMS
--product/app/imssettings/imssettings.apk
--product/app/uceShimService/uceShimService.apk
-product/lib64/lib-imscamera.so
-product/lib64/lib-imsvideocodec.so
-product/lib64/lib-imsvt.so
-product/lib64/lib-imsvtextutils.so
-product/lib64/lib-imsvtutils.so
-product/lib64/libimscamera_jni.so
-product/lib64/libimsmedia_jni.so
-product/lib64/vendor.qti.imsrtpservice@2.0.so
-product/lib64/vendor.qti.imsrtpservice@2.1.so
--product/priv-app/ims/ims.apk
+-product/app/imssettings/imssettings.apk:system_ext/app/imssettings/imssettings.apk
+-product/app/uceShimService/uceShimService.apk:system_ext/app/uceShimService/uceShimService.apk
+product/lib64/lib-imscamera.so:system_ext/lib64/lib-imscamera.so
+product/lib64/lib-imsvideocodec.so:system_ext/lib64/lib-imsvideocodec.so
+product/lib64/lib-imsvt.so:system_ext/lib64/lib-imsvt.so
+product/lib64/lib-imsvtextutils.so:system_ext/lib64/lib-imsvtextutils.so
+product/lib64/lib-imsvtutils.so:system_ext/lib64/lib-imsvtutils.so
+product/lib64/libimscamera_jni.so:system_ext/lib64/libimscamera_jni.so
+product/lib64/libimsmedia_jni.so:system_ext/lib64/libimsmedia_jni.so
+product/lib64/vendor.qti.imsrtpservice@2.0.so:system_ext/lib64/vendor.qti.imsrtpservice@2.0.so
+product/lib64/vendor.qti.imsrtpservice@2.1.so:system_ext/lib64/vendor.qti.imsrtpservice@2.1.so
+-product/priv-app/ims/ims.apk:system_ext/priv-app/ims/ims.apk
 vendor/bin/ims_rtp_daemon
 vendor/bin/imsdatadaemon
 vendor/bin/imsqmidaemon
