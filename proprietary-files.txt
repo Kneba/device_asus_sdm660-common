@@ -53,9 +53,9 @@ vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 
 # ANT+
-product/lib64/com.qualcomm.qti.ant@1.0.so
--system/lib/libantradio.so
--system/lib64/libantradio.so
+product/lib64/com.qualcomm.qti.ant@1.0.so:system_ext/lib64/com.qualcomm.qti.ant@1.0.so
+-system/lib/libantradio.so:system_ext/lib/libantradio.so
+-system/lib64/libantradio.so:system_ext/lib64/libantradio.so
 vendor/lib64/com.qualcomm.qti.ant@1.0.so
 vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so
 
