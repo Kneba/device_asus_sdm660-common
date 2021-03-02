@@ -27,6 +27,9 @@ vendor.display.disable_skip_validate=1
 # GPS
 persist.vendor.overlay.izat.optin=rro
 
+# GBoard Spacing
+ro.com.google.ime.kb_pad_port_b=1
+
 # Graphics
 debug.sf.latch_unsignaled=0
 debug.sf.disable_backpressure=1
