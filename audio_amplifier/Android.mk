@@ -39,10 +39,10 @@ LOCAL_C_INCLUDES += \
     system/media/audio_utils/include \
     $(call include-path-for, audio-effects) \
     $(call include-path-for, audio-route) \
-    $(call project-path-for,qcom-audio)/hal \
-    $(call project-path-for,qcom-audio)/hal/msm8974 \
-    $(call project-path-for,qcom-audio)/hal/audio_extn \
-    $(call project-path-for,qcom-audio)/hal/voice_extn
+    hardware/qcom-caf/msm8998/audio/hal \
+    hardware/qcom-caf/msm8998/audio/hal/msm8974 \
+    hardware/qcom-caf/msm8998/audio/hal/audio_extn \
+    hardware/qcom-caf/msm8998/audio/hal/voice_extn
 
 LOCAL_HEADER_LIBRARIES := generated_kernel_headers
 LOCAL_SRC_FILES := audio_amplifier.c
