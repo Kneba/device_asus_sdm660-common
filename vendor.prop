@@ -92,6 +92,9 @@ vendor.audio.volume.headset.gain.depcal=true
 vendor.audio.tunnel.encode=false
 vendor.voice.path.for.pcm.voip=false
 
+# BPF
+ro.kernel.ebpf.supported=false
+
 # Bluetooth
 persist.vendor.service.bdroid.sibs=false
 persist.vendor.bt.aac_frm_ctl.enabled=true
