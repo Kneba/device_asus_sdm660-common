@@ -6,6 +6,9 @@
 bt.max.hfpclient.connections=1
 vendor.bluetooth.soc=cherokee
 
+# Blur
+ro.surface_flinger.supports_background_blur=0
+
 # Camera
 persist.vendor.camera.privapp.list=org.codeaurora.snapcam
 persist.camera.privapp.list=org.codeaurora.snapcam
