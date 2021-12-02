@@ -151,7 +151,8 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     GCam \
-    Nekopoi
+    Nekopoi \
+    Youtube
 
 PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.4 \
