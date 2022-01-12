@@ -134,8 +134,8 @@ persist.backup.ntpServer=0.pool.ntp.org
 
 # memory opts
 ro.vendor.qti.sys.fw.bservice_enable=true
-ro.sys.fw.bservice_limit=5
-ro.sys.fw.bservice_age=5000
+ro.sys.fw.bservice_limit=10
+ro.sys.fw.bservice_age=10000
 ro.am.reschedule_service=true
 ro.sys.fw.bg_apps_limit=32
 ro.config.fha_enable=true
