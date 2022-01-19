@@ -84,10 +84,9 @@ BOARD_KERNEL_CMDLINE += service_locator.enable=1 swiotlb=1 loop.max_part=7
 BOARD_KERNEL_BASE        := 0x00000000
 BOARD_KERNEL_PAGESIZE    := 4096
 BOARD_KERNEL_IMAGE_NAME  := Image.gz-dtb
-TARGET_KERNEL_CLANG_VERSION := proton
+
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_SOURCE := kernel/asus/sdm660
-KERNEL_TOOLCHAIN_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-proton/bin/aarch64-linux-gnu-
 TARGET_KERNEL_ADDITIONAL_FLAGS := \
     HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 
