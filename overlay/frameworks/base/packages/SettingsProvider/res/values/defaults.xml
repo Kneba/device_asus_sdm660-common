@@ -39,4 +39,7 @@
     <!-- Enable vibrate for calls by default -->
     <bool name="def_vibrate_when_ringing">true</bool>
 
+    <!-- 60 seconds for default screen timeout -->
+    <integer name="def_screen_off_timeout">60000</integer>
+
 </resources>
