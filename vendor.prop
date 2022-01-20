@@ -129,6 +129,7 @@ ro.hardware.egl=adreno
 ro.hardware.vulkan=sdm660
 renderthread.skia.reduceopstasksplitting=false
 debug.hwui.target_cpu_time_percent=30
+debug.hwui.use_hint_manager=true
 
 # NTP Server
 persist.backup.ntpServer=0.pool.ntp.org
