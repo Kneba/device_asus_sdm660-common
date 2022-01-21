@@ -147,6 +147,21 @@ vendor.display.disable_excl_rect_partial_fb=1
 # NTP Server
 persist.backup.ntpServer=0.pool.ntp.org
 
+# memory opts
+ro.vendor.qti.sys.fw.bservice_enable=true
+ro.sys.fw.bservice_limit=6
+ro.sys.fw.bservice_age=10000
+ro.am.reschedule_service=true
+ro.sys.fw.bg_apps_limit=24
+ro.config.fha_enable=true
+ro.config.dha_cached_max=8
+ro.config.dha_empty_max=24
+ro.config.dha_empty_init=24
+ro.config.dha_lmk_scale=0.545
+ro.config.dha_th_rate=2.3
+ro.config.sdha_apps_bg_max=50
+ro.config.sdha_apps_bg_min=8
+
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 
