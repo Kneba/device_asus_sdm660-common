@@ -442,6 +442,10 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.vsync_event_phase_offset_ns=2000000 \
     ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000
 
+# System
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.binary_xml=false
+
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
