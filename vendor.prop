@@ -141,6 +141,10 @@ ro.hardware.vulkan=sdm660
 # DRM
 drm.service.enabled=true
 
+# Fling
+ro.min.fling_velocity=160
+ro.max.fling_velocity=20000
+
 # FM
 vendor.hw.fm.init=0
 vendor.fm.a2dp.conc.disabled=false
