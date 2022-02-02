@@ -321,6 +321,14 @@ vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterprovision.so
 vendor/lib64/libkeymasterutils.so
 
+# Libdolphin - from alioth - 12/SKQ1.210908.001/21.10.12
+system_ext/lib/libdolphin.so|4212332e6f596d61060a69cd5b6380684d39e2af
+system_ext/lib64/libdolphin.so|e899d86d91956a728b684ccf3b6f89594d631376
+
+# Libbeluga - from alioth - 12/SKQ1.210908.001/21.10.12
+system_ext/lib/libbeluga.so|8c471c924e3da8433ffb20ec86e2539d440a502c
+system_ext/lib64/libbeluga.so|ee3c1b68bc44372cbc63d074a786ca460605fc45
+
 # Listen
 vendor/lib/libadpcmdec.so
 vendor/lib/libgcs-calwrapper.so
