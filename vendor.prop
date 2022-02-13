@@ -169,6 +169,11 @@ sys.vendor.shutdown.waittime=500
 ro.soc.manufacturer=Qualcomm
 ro.soc.model=SDM660
 
+# Suspend properties
+suspend.short_suspend_threshold_millis=2000
+suspend.short_suspend_backoff_enabled=true
+suspend.max_sleep_time_millis=40000
+
 # UBWC
 vendor.video.disable.ubwc=1
 
