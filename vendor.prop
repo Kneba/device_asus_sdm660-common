@@ -127,6 +127,7 @@ ro.com.google.rlz_ap_whitelist=y0,y5,y6,y7,y9
 debug.cpurend.vsync=false
 ro.hardware.egl=adreno
 ro.hardware.vulkan=sdm660
+renderthread.skia.reduceopstasksplitting=false
 
 # NTP Server
 persist.backup.ntpServer=0.pool.ntp.org
