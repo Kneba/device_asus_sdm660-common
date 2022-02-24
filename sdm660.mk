@@ -128,7 +128,9 @@ PRODUCT_PACKAGES += \
     hwcomposer.sdm660 \
     memtrack.sdm660 \
     libdisplayconfig \
-    libtinyxml
+    libtinyxml \
+    libqdMetaData \
+    libqdMetaData.system
 
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
@@ -357,6 +359,7 @@ PRODUCT_COPY_FILES += \
 
 # Permissions
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/system-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     $(LOCAL_PATH)/configs/system_ext-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-qti.xml
 
 # Power
@@ -370,6 +373,7 @@ PRODUCT_COPY_FILES += \
 
 # QCOM
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     $(LOCAL_PATH)/configs/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml
 
 # QMI
