@@ -26,6 +26,10 @@ vendor.display.disable_skip_validate=1
 vendor.display.disable_rotator_downscale=1
 vendor.display.disable_scaler=0
 
+# Fling
+ro.min.fling_velocity=160
+ro.max.fling_velocity=20000
+
 # GPS
 persist.vendor.overlay.izat.optin=rro
 
