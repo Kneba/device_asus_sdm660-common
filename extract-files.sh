@@ -65,6 +65,10 @@ function blob_fixup() {
     system/lib64/libfm-hci.so | system/lib64/libwfdnative.so | system/lib/libfm-hci.so | system/lib/libwfdnative.so)
         "${PATCHELF}" --remove-needed "android.hidl.base@1.0.so" "${2}"
         ;;
+
+        system_ext/lib64/lib-imsvideocodec.so)
+        "${PATCHELF}" --add-needed "lib-imsvtshim.so" "${2}"
+        ;;
     esac
 }
 
