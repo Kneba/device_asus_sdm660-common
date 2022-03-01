@@ -76,6 +76,12 @@ vendor.audio.volume.headset.gain.depcal=true
 vendor.audio.tunnel.encode=false
 vendor.voice.path.for.pcm.voip=false
 
+# Additional props
+ro.vendor.qti.cgroup_follow.enable=true
+persist.vendor.qti.inputopts.enable=true
+persist.vendor.qti.inputopts.movetouchslop=0.6
+ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
+
 # Bluetooth
 persist.vendor.service.bdroid.sibs=false
 persist.vendor.bt.aac_frm_ctl.enabled=true
@@ -127,6 +133,7 @@ ro.com.google.rlz_ap_whitelist=y0,y5,y6,y7,y9
 persist.backup.ntpServer=0.pool.ntp.org
 
 # memory opts
+ro.config.fha_enable=true
 ro.vendor.qti.sys.fw.bservice_enable=true
 ro.sys.fw.bservice_limit=6
 ro.sys.fw.bservice_age=10000
@@ -199,22 +206,3 @@ MultitouchSettleInterval=1ms
 MultitouchMinDistance=1px
 TapInterval=1ms
 TapSlop=1px
-
-# Additional props
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.qti.cgroup_follow.enable=true
-    persist.vendor.qti.inputopts.enable=true
-    persist.vendor.qti.inputopts.movetouchslop=0.6
-    ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
-
-# Better Ram
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.config.fha_enable=true \
-    ro.sys.fw.bg_apps_limit=32 \
-    ro.config.dha_cached_max=16 \
-    ro.config.dha_empty_max=42 \
-    ro.config.dha_empty_init=32 \
-    ro.config.dha_lmk_scale=0.545 \
-    ro.config.dha_th_rate=2.3 \
-    ro.config.sdha_apps_bg_max=64 \
-    ro.config.sdha_apps_bg_min=8
