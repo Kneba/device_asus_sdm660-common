@@ -478,3 +478,6 @@ on property:sys.boot_completed=1
     stop boot_log_crash
     stop boot_log_kernel
 
+# USB Fast Charge
+    write /sys/kernel/fast_charge/force_fast_charge 1
+
