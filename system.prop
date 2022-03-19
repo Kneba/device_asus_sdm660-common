@@ -63,7 +63,6 @@ persist.sys.fflag.override.settings_network_and_internet_v2=true
 persist.sys.fflag.override.settings_provider_model=false
 ril.subscription.types=NV,RUIM
 telephony.lteOnCdmaDevice=1
-persist.sys.fflag.override.settings_provider_model=false
 
 # Surfaceflinger
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
