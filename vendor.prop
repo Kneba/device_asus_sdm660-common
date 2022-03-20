@@ -23,7 +23,6 @@ vendor.audio.feature.battery_listener.enable=false
 vendor.audio.feature.compr_cap.enable=false
 vendor.audio.feature.compress_in.enable=false
 vendor.audio.feature.compress_meta_data.enable=true
-vendor.audio.feature.compr_voip.enable=true
 vendor.audio.feature.concurrent_capture.enable=false
 vendor.audio.feature.custom_stereo.enable=true
 vendor.audio.feature.display_port.enable=true
@@ -43,7 +42,7 @@ vendor.audio.feature.hwdep_cal.enable=false
 vendor.audio.feature.incall_music.enable=false
 vendor.audio.feature.multi_voice_session.enable=true
 vendor.audio.feature.keep_alive.enable=false
-vendor.audio.feature.kpi_optimize.enable=true
+vendor.audio.feature.kpi_optimize.enable=false
 vendor.audio.feature.maxx_audio.enable=false
 vendor.audio.feature.ras.enable=true
 vendor.audio.feature.record_play_concurency.enable=false
@@ -103,7 +102,6 @@ vendor.display.disable_scaler=0
 vendor.display.comp_mask=0
 vendor.display.disable_decimation=1
 vendor.display.disable_excl_rect=0
-vendor.display.disable_excl_rect_partial_fb=1
 vendor.display.disable_hw_recovery_dump=1
 vendor.display.disable_inline_rotator=1
 vendor.display.disable_scaler=0
@@ -111,6 +109,8 @@ vendor.display.disable_ui_3d_tonemap=1
 vendor.display.enable_null_display=0
 vendor.display.enable_optimize_refresh=1
 vendor.gralloc.disable_ubwc=0
+vendor.display.use_layer_ext=0
+vendor.display.use_smooth_motion=0
 
 # DRM
 drm.service.enabled=true
@@ -134,6 +134,7 @@ ro.hardware.vulkan=sdm660
 renderthread.skia.reduceopstasksplitting=false
 debug.hwui.target_cpu_time_percent=30
 debug.hwui.use_hint_manager=true
+vendor.display.disable_excl_rect_partial_fb=1
 
 # NTP Server
 persist.backup.ntpServer=0.pool.ntp.org
