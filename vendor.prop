@@ -89,6 +89,10 @@ persist.vendor.camera.mpo.disabled=1
 persist.vendor.camera.preview.ubwc=0
 persist.vendor.camera.HAL3.enabled=1
 
+# Codec2 switch
+debug.stagefright.omx_default_rank.sw-audio=1
+debug.stagefright.omx_default_rank=0
+
 # Display
 debug.hwui.use_buffer_age=false
 debug.sf.enable_hwc_vds=1
