@@ -109,7 +109,6 @@ vendor.display.enable_optimize_refresh=1
 vendor.gralloc.disable_ubwc=0
 vendor.display.use_layer_ext=0
 vendor.display.use_smooth_motion=0
-ro.config.avoid_gfx_accel=true
 
 # DRM
 drm.service.enabled=true
