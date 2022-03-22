@@ -121,8 +121,8 @@ void vendor_load_properties()
     property_override("ro.boot.selinux", "enforcing");
     property_override("ro.boot.veritymode", "enforcing");
     property_override("ro.boot.vbmeta.device_state", "locked");
-    property_override("ro.build.description", "walleye-user 8.1.0 OPM1.171019.011 4448085 release-keys");
-    property_override("ro.build.fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
-    property_override("ro.system.build.fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
+    property_override("ro.build.description", "coral-user 12 SP2A.220305.012 8177914 release-keys");
+    property_override("ro.build.fingerprint", "google/coral/coral:12/SP2A.220305.012/8177914:user/release-keys");
+    property_override("ro.system.build.fingerprint", "google/coral/coral:12/SP2A.220305.012/8177914:user/release-keys");
 
 }
