@@ -145,10 +145,11 @@ debug.hwui.target_cpu_time_percent=30
 debug.hwui.use_hint_manager=true
 vendor.display.disable_excl_rect_partial_fb=1
 
-# NTP Server
-persist.backup.ntpServer=0.pool.ntp.org
+# Misc tweaks
+pm.sleep_mode=1
+debug.sdm.support_writeback=0
 
-# memory opts
+# Memory opts
 ro.vendor.qti.sys.fw.bservice_enable=true
 ro.sys.fw.bservice_limit=6
 ro.sys.fw.bservice_age=10000
@@ -162,6 +163,9 @@ ro.config.dha_lmk_scale=0.545
 ro.config.dha_th_rate=2.3
 ro.config.sdha_apps_bg_max=50
 ro.config.sdha_apps_bg_min=8
+
+# NTP Server
+persist.backup.ntpServer=0.pool.ntp.org
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
