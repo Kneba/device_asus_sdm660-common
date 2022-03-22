@@ -40,7 +40,7 @@ ro.com.google.ime.kb_pad_port_b=1
 debug.sf.latch_unsignaled=0
 debug.sf.disable_backpressure=1
 persist.demo.hdmirotationlock=false
-persist.hwc.enable_vds=0
+persist.hwc.enable_vds=1
 sdm.debug.disable_skip_validate=1
 
 # IORap app launch prefetching using Perfetto traces and madvise
