@@ -10,4 +10,6 @@ libhta_controller.so
 libhta_hexagon_runtime.so
 unnhal-acc-hta.so
 libprotobuf-cpp-full.so
+libprotobuf-cpp-full-3.9.1.so
 libprotobuf-cpp-lite.so
+libprotobuf-cpp-lite-3.9.1.so

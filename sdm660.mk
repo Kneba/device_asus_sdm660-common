@@ -460,10 +460,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service
 
 # FIXME: master: compat for libprotobuf
-# See https://android-review.googlesource.com/c/platform/prebuilts/vndk/v28/+/1109518
+# See https://android-review.googlesource.com/c/platform/prebuilts/misc/+/2296319
+# See https://android-review.googlesource.com/c/platform/prebuilts/misc/+/2817457
 PRODUCT_PACKAGES += \
-    libprotobuf-cpp-full-vendorcompat \
-    libprotobuf-cpp-lite-vendorcompat
+    libprotobuf-cpp-full-3.9.1-vendorcompat \
+    libprotobuf-cpp-lite-3.9.1-vendorcompat
 
 # VR
 PRODUCT_PACKAGES += \
