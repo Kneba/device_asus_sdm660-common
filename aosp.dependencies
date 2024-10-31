@@ -1,0 +1,12 @@
+[
+  {
+    "repository":  "android_kernel_asus_sdm660",
+    "target_path": "kernel/asus/sdm660",
+    "branch": "thirteen"
+  },
+  {
+    "repository": "android_vendor_asus",
+    "target_path": "vendor/asus",
+    "branch": "thirteen"
+  }
+]
